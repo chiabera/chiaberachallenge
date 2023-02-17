@@ -1,0 +1,202 @@
+/* *********************** */
+/* GENERAL CODES */
+/* *********************** */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  width: 144rem;
+}
+
+/* *********************** */
+/* HEADER SECTION */
+/* *********************** */
+
+.header {
+  background-image: url(images/bg-header-desktop.png);
+}
+
+.header-container {
+  margin: 0 auto;
+  width: 70rem;
+  text-align: center;
+}
+
+.logo-img {
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.header-txt {
+  color: hsl(201, 11%, 66%);
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+  margin-right: 2rem;
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+}
+
+/* *********************** */
+/* CONTAINER SECTION */
+/* *********************** */
+
+.txt-snippets {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.txt-snippets h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.txt-snippets p {
+  color: hsl(201, 11%, 66%);
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+.quick-search {
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  gap: 10rem;
+}
+
+.apple {
+  width: 55rem;
+}
+
+.search-texts p {
+  margin-bottom: 4rem;
+  color: hsl(201, 11%, 66%);
+  line-height: 2rem;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.access {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.access h2,
+.supercharge h2,
+.clipboard h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.access p,
+.supercharge p,
+.icons p,
+.clipboard p {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.device-img {
+  width: 60rem;
+  display: block;
+  margin: 8rem auto;
+}
+
+.supercharge {
+  text-align: center;
+  line-height: 3rem;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 8rem;
+}
+
+.icons {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  padding: 5rem;
+}
+
+.logos img {
+  width: 10rem;
+}
+
+.clipboard {
+  text-align: center;
+}
+
+.clipboard button {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+/* *********************** */
+/* FOOTER SECTION */
+/* *********************** */
+
+footer {
+  background-color: hsl(201, 11%, 66%);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 10rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-logo {
+  width: 5rem;
+}
+
+.social-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.contact-info {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
